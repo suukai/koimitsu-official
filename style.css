@@ -838,6 +838,8 @@ h1, h2, h3, h4, h5, h6 {
     padding: 50px;
     border-radius: 12px;
     box-shadow: var(--shadow);
+    width: 100%;
+    box-sizing: border-box;
 }
 .rules-title {
     text-align: center;
@@ -885,5 +887,23 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (max-width: 768px) {
     .rules-section { padding: 30px 20px; }
+}
+
+
+.guide-modal-body {
+    padding: 40px;
+    box-sizing: border-box;
+    width: 100%;
+}
+@media (max-width: 768px) {
+    .guide-modal-body {
+        padding: 20px;
+    }
+    .rule-block h4 {
+        max-width: 100%;
+        word-break: break-word;
+        white-space: normal;
+        line-height: 1.4;
+    }
 }
 
