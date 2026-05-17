@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>あ！恋見つけちゃいました…♡ | OFFICIAL SITE</title>
+    <meta name="description" content="アイドルグループ「あ！恋見つけちゃいました…♡」のオフィシャルサイト。最新情報、スケジュール、プロフィールなど。">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Noto+Sans+JP:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-brand">あ！恋見つけちゃいました…♡</a>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#profile" class="nav-link">Profile</a></li>
+                <li><a href="#guide" class="nav-link">Guide</a></li>
+                <li><a href="#schedule" class="nav-link">Schedule</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-sns">
+                <a href="#" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero" id="home">
+        <div class="hero-bg">
+            <img src="素材/group.jpg" alt="恋見つけちゃいました 集合写真">
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <img src="素材/logo.png" alt="恋見つけちゃいました ロゴ" class="hero-logo fade-in-up">
+            <p class="hero-slogan fade-in-up delay-1">私たちと一緒に、新しい恋、見つけませんか？</p>
+        </div>
+        <div class="scroll-down">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </header>
+
+    <main>
+
+
+        <!-- Profile Section -->
+        <section class="section section-bg" id="profile">
+            <div class="container">
+                <h2 class="section-title fade-in-up">Profile<span>メンバー</span></h2>
+                <div class="profile-grid" id="profile-grid">
+                    <!-- Members will be dynamically generated here by JS -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Schedule Section -->
+        <section class="section" id="schedule">
+            <div class="container">
+                <h2 class="section-title fade-in-up">Schedule<span>スケジュール</span></h2>
+                <div class="schedule-container fade-in-up">
+                    <div class="calendar-wrapper">
+                        <iframe
+                            src="https://calendar.google.com/calendar/embed?src=madanemui.jp%40gmail.com&ctz=Asia%2FTokyo&showTitle=0&showNav=1&showDate=1&showPrint=0&showTabs=1&showCalendars=0&showTz=0&bgcolor=%23ffffff"
+                            style="border: 0" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Guide Section -->
+        <section class="section" id="guide">
+            <div class="container">
+                <h2 class="section-title fade-in-up">Guide<span>ガイド</span></h2>
+                <div class="news-grid">
+                    <div class="news-card guide-card-trigger fade-in-up" data-target="content-guide-1" style="cursor: pointer;">
+                        <div style="width: 100%; height: 200px; overflow: hidden; border-radius: 8px; margin-bottom: 15px;">
+                            <img src="素材/宿圖.jpg" alt="はじめてのライブ参加ガイド" style="width: 100%; height: 100%; object-fit: cover;">
+                        </div>
+                        <div class="news-category tag-info">GUIDE</div>
+                        <h3 class="news-title">はじめてのライブ参加ガイド 🎀</h3>
+                    </div>
+                    <div class="news-card guide-card-trigger fade-in-up delay-1" data-target="content-guide-2" style="cursor: pointer;">
+                        <div style="width: 100%; height: 200px; overflow: hidden; border-radius: 8px; margin-bottom: 15px;">
+                            <img src="素材/宿圖2.jpg" alt="特典会の流れ・レギュレーション" style="width: 100%; height: 100%; object-fit: cover;">
+                        </div>
+                        <div class="news-category tag-info">RULE</div>
+                        <h3 class="news-title">📸 特典会の流れ・レギュレーション</h3>
+                    </div>
+                    <div class="news-card guide-card-trigger fade-in-up delay-2" data-target="content-guide-3" style="cursor: pointer;">
+                        <div style="width: 100%; height: 200px; overflow: hidden; border-radius: 8px; margin-bottom: 15px;">
+                            <img src="素材/宿圖3.jpg" alt="対応している決済方法・レギュレーション" style="width: 100%; height: 100%; object-fit: cover;">
+                        </div>
+                        <div class="news-category tag-info">INFO</div>
+                        <h3 class="news-title">💳 決済方法・レギュレーション</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact Section -->
+        <section class="section section-bg" id="contact">
+            <div class="container contact-container">
+                <h2 class="section-title fade-in-up">Contact<span>お問い合わせ</span></h2>
+                <p class="contact-desc fade-in-up">出演依頼、お問い合わせは下記フォームよりお願いいたします。</p>
+                <form class="contact-form fade-in-up delay-1" action="https://formspree.io/f/mkoyekqq" method="POST">
+                    <div class="form-group">
+                        <label for="name">お名前 / 企業名</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">メールアドレス</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">お問い合わせ内容</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary btn-submit">送信する</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-logo">恋見つけちゃいました</div>
+            <div class="footer-sns">
+                <a href="#" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+            </div>
+            <p class="copyright">&copy; 2026 恋見つけちゃいました All Rights Reserved.</p>
+        </div>
+    </footer>
+
+
+    <!-- Hidden Guide Contents -->
+    <div style="display: none;">
+        <div id="content-guide-1">
+            <div class="guide-intro">
+                <p>「アイドルのライブ初めてで不安…」って人向けに、<br>当日の流れを分かりやすくまとめました◎<br>1人参加の人も多いので安心して来てね！</p>
+            </div>
+
+            <div class="guide-steps">
+                <div class="guide-card">
+                    <div class="step-num">①</div>
+                    <h3>チケットを買う</h3>
+                    <p>まずはライブのチケットを購入！</p>
+                    <ul>
+                        <li>・LivePocket</li>
+                        <li>・TIGET</li>
+                        <li>・公式予約フォーム など</li>
+                    </ul>
+                    <div class="highlight">購入後は、<br>✔チケット画面<br>✔整理番号<br>を確認しておこう！</div>
+                </div>
+
+                <div class="guide-card">
+                    <div class="step-num">②</div>
+                    <h3>当日の持ち物</h3>
+                    <p>最低限これがあればOK！</p>
+                    <ul>
+                        <li>・スマホ</li>
+                        <li>・チケット画面</li>
+                        <li>・お金（ドリンク代が必要な会場多い！）</li>
+                        <li>・身分証（必要な場合あり）</li>
+                    </ul>
+                    <p class="note">※ライブハウスでは入場時に「ドリンク代600円」前後が必要なことが多いです！</p>
+                </div>
+
+                <div class="guide-card">
+                    <div class="step-num">③</div>
+                    <h3>会場に到着</h3>
+                    <p>開場時間の10〜15分前くらいに着くのがおすすめ◎<br>入口付近でスタッフさんが案内してくれるので、分からなかったら気軽に聞いて大丈夫！</p>
+                </div>
+
+                <div class="guide-card">
+                    <div class="step-num">④</div>
+                    <h3>入場する</h3>
+                    <p>基本は整理番号順に呼ばれます！呼ばれたら</p>
+                    <ul>
+                        <li>✔チケット提示</li>
+                        <li>✔ドリンク代支払い</li>
+                    </ul>
+                    <p>をして入場！</p>
+                </div>
+
+                <div class="guide-card">
+                    <div class="step-num">⑤</div>
+                    <h3>ライブを見る</h3>
+                    <p>最初は後ろで見るだけでも全然OK！</p>
+                    <ul>
+                        <li>・ペンライトなしOK</li>
+                        <li>・コール分からなくてOK</li>
+                        <li>・地蔵でもOK</li>
+                    </ul>
+                    <p>「楽しもう！」の気持ちだけで大丈夫◎</p>
+                </div>
+
+                <div class="guide-card">
+                    <div class="step-num">⑥</div>
+                    <h3>特典会とは？</h3>
+                    <p>ライブ後にある、メンバーとお話したりチェキを撮れる時間！<br>「チェキ券」を買うと参加できます📸</p>
+                    <div class="highlight">例）<br>1枚 → チェキ撮影<br>2枚 → 動画 など</div>
+                </div>
+
+                <div class="guide-card">
+                    <div class="step-num">⑦</div>
+                    <h3>チェキの流れ</h3>
+                    <ul>
+                        <li>①チェキ券を買う</li>
+                        <li>②列に並ぶ</li>
+                        <li>③撮影する</li>
+                        <li>④少しお話できる！</li>
+                    </ul>
+                    <p>ポーズは「ピース！」だけでも全然大丈夫◎</p>
+                </div>
+
+                <div class="guide-card">
+                    <div class="step-num">⑧</div>
+                    <h3>帰宅！</h3>
+                    <p>忘れ物確認して気をつけて帰ろう！<br>感想をSNSで投稿してくれるとメンバーめちゃくちゃ喜びます🫶</p>
+                </div>
+            </div>
+
+            <div class="guide-conclusion">
+                <h3>最後に</h3>
+                <p>ライブって最初は緊張するけど、実際行くと楽しいし優しい人も多いです◎<br>「気になってる」だけでも大歓迎なので、ぜひ遊びに来てください🎀</p>
+            </div>
+        </div>
+
+        <div id="content-guide-2">
+            <div class="rules-section" style="box-shadow: none; padding: 0;">
+                <h3 class="rules-title">📸 特典会の流れ・レギュレーション</h3>
+                
+                <div class="rule-block">
+                    <h4>【🎀 ライブ中について】</h4>
+                    <ul>
+                        <li>・ライブ中の写真・動画撮影 全曲OK</li>
+                        <li>・SNS掲載は必ず本人確認後にお願いします</li>
+                        <li>・チェキ掲載は個人の判断でOKです◎</li>
+                    </ul>
+                </div>
+
+                <div class="rule-block">
+                    <h4>【💰 レギュレーション】</h4>
+                    <ul>
+                        <li>♡ 写メ1枚　¥1,000-</li>
+                        <li>♡ サインありチェキ　¥2,000-</li>
+                    </ul>
+                    <div class="highlight-box">
+                        🎁 チェキ10枚まとめ購入で「写メ券1枚」プレゼント！<br>
+                        <small>※購入上限：100枚</small>
+                    </div>
+                </div>
+
+                <div class="rule-block">
+                    <h4>【📸 特典会 参加方法】</h4>
+                    <div class="flow-list">
+                        <div>① ライブチケットを事前に購入</div>
+                        <div class="flow-arrow">↓</div>
+                        <div>② 当日、会場へ来場</div>
+                        <div class="flow-arrow">↓</div>
+                        <div>③ 受付でチケットを提示して入場</div>
+                        <div class="flow-arrow">↓</div>
+                        <div>④ ライブを観覧🎤</div>
+                        <div class="flow-arrow">↓</div>
+                        <div>⑤ 終演後、特典券販売列へ並び特典券を購入</div>
+                        <div class="flow-arrow">↓</div>
+                        <div>⑥ 撮影列へ並び順番に撮影📸</div>
+                    </div>
+                </div>
+
+                <div class="rule-block">
+                    <h4>【⚠️ 注意事項】</h4>
+                    <ul>
+                        <li>・特典会参加にはライブチケットが必要です</li>
+                        <li>・撮影には特典券が必要となります</li>
+                        <li>・撮影前に「チェキ」or「写メ」をスタッフへお伝えください</li>
+                        <li>・撮影ポーズは事前にご準備ください</li>
+                        <li>・列状況により並び直しをお願いする場合がございます</li>
+                        <li>・スタッフの案内に従ってご参加ください</li>
+                    </ul>
+                </div>
+
+                <div class="rule-block">
+                    <h4>【🚫 禁止事項】</h4>
+                    <ul>
+                        <li>・お客様から演者への接触禁止</li>
+                        <li>・過度な進行妨害行為禁止</li>
+                    </ul>
+                </div>
+
+                <div class="rule-block">
+                    <h4>【🔁 ループについて】</h4>
+                    <ul>
+                        <li>対バンライブ：2枚出し推奨</li>
+                        <li>混雑時：最大5枚出し制限の場合あり</li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <div id="content-guide-3">
+            <div class="rules-section" style="box-shadow: none; padding: 0;">
+                <h3 class="rules-title">🎀 対応している決済方法 🎀</h3>
+                
+                <div class="rule-block">
+                    <h4>【クレジットカード】</h4>
+                    <ul>
+                        <li>・VISA</li>
+                        <li>・Mastercard</li>
+                        <li>・JCB</li>
+                        <li>・American Express</li>
+                        <li>・Diners Club</li>
+                    </ul>
+                </div>
+
+                <div class="rule-block">
+                    <h4>【その他カード・電子マネー】</h4>
+                    <ul>
+                        <li>・DISCOVER</li>
+                        <li>・UnionPay（銀聯）</li>
+                        <li>・iD</li>
+                        <li>・QUICPay</li>
+                    </ul>
+                </div>
+
+                <div class="rule-block">
+                    <h4>【交通系電子マネー】</h4>
+                    <ul>
+                        <li>・Kitaca</li>
+                        <li>・Suica</li>
+                        <li>・PASMO</li>
+                        <li>・tolca</li>
+                        <li>・manaca</li>
+                        <li>・ICOCA</li>
+                        <li>・SUGOCA</li>
+                        <li>・nimoca</li>
+                        <li>・はやかけん</li>
+                    </ul>
+                </div>
+
+                <div class="rule-block">
+                    <h4>【コード決済】</h4>
+                    <ul>
+                        <li>・PayPay</li>
+                        <li>・d払い</li>
+                        <li>・楽天Pay</li>
+                        <li>・au PAY</li>
+                        <li>・メルペイ</li>
+                        <li>・WeChat Pay</li>
+                        <li>・Alipay+</li>
+                    </ul>
+                </div>
+
+                <hr style="margin: 40px 0; border: none; border-top: 1px dashed var(--color-border);">
+
+                <h3 class="rules-title">🎀 レギュレーション 🎀</h3>
+                
+                <div class="rule-block">
+                    <ul>
+                        <li>📸 写メ券　1枚 ¥1,000</li>
+                        <li>🖊 サインありチェキ　1枚 ¥2,000</li>
+                    </ul>
+                    
+                    <div class="highlight-box">
+                        🎁 チェキ10枚まとめ購入で「写メ券1枚」プレゼント！<br>
+                        <small>※購入上限：100枚</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Guide Modal -->
+    <div class="modal" id="guide-modal">
+        <div class="modal-overlay" id="guide-modal-close-bg"></div>
+        <div class="modal-content" style="max-width: 800px;">
+            <button class="modal-close" id="guide-modal-close-btn"><i class="fa-solid fa-xmark"></i></button>
+            <div class="modal-body" id="guide-modal-body" style="padding: 40px;">
+            </div>
+        </div>
+    </div>
+    <!-- Profile Modal -->
+    <div class="modal" id="profile-modal">
+        <div class="modal-overlay" id="modal-close-bg"></div>
+        <div class="modal-content">
+            <button class="modal-close" id="modal-close-btn"><i class="fa-solid fa-xmark"></i></button>
+            <div class="modal-body" id="modal-body">
+                <!-- Modal content will be injected by JS -->
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+
+</html>
