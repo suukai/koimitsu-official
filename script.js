@@ -85,22 +85,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 tiktok: "https://tiktok.com/@ayasan112"
             }
         },
-        {
-            id: "azarashi",
-            name: "あざらし",
-            romaji: "AZARASHI",
-            color: "緑",
-            birthday: "2009年5月11日",
-            hobby: "歌うこと、踊ること、食べること",
-            skill: "ショートケーキ二口で食べれます🍓",
-            comment: "沢山大きなステージに立ってみたいです！一緒にいい景色みましょう🦭",
-            image: "素材/azarashi.jpg",
-            sns: {
-                x: "https://x.com/azarashi_koimitu",
-                instagram: "https://instagram.com/azarashi_koimitu",
-                tiktok: "https://tiktok.com/@azarashi_koimitu"
-            }
-        },
+
         {
             id: "nemu",
             name: "はちみつねむ",
