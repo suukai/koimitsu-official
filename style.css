@@ -357,15 +357,16 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Profile Section */
 .profile-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 40px;
 }
 
 .profile-card {
     cursor: pointer;
-    group: profile;
-    min-width: 0;
+    width: 250px;
+    flex: 0 1 250px;
 }
 
 .profile-img-wrap {
@@ -750,14 +751,17 @@ h1, h2, h3, h4, h5, h6 {
     
     .hero-slogan { font-size: 1rem; }
     .section { padding: 70px 0; }
-    .profile-grid { grid-template-columns: repeat(3, 1fr); gap: 15px; }
+    .profile-grid { gap: 15px; }
+    .profile-card { width: calc(33.333% - 10px); flex: 0 1 calc(33.333% - 10px); }
     .profile-name { font-size: 1rem; }
     .profile-color { font-size: 0.8rem; }
     .profile-romaji { font-size: 0.6rem; letter-spacing: 0; }
+    .news-grid { grid-template-columns: 1fr; }
 }
 
 @media (max-width: 480px) {
-    .profile-grid { grid-template-columns: repeat(3, 1fr); gap: 10px; }
+    .profile-grid { gap: 10px; }
+    .profile-card { width: calc(33.333% - 7px); flex: 0 1 calc(33.333% - 7px); }
     .profile-name { font-size: 0.85rem; }
     .profile-color { font-size: 0.7rem; }
     .profile-romaji { font-size: 0.55rem; letter-spacing: 0; }
