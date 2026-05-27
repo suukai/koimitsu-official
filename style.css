@@ -365,8 +365,9 @@ h1, h2, h3, h4, h5, h6 {
 
 .profile-card {
     cursor: pointer;
-    width: 250px;
-    flex: 0 1 250px;
+    width: calc(25% - 30px);
+    flex: 0 1 calc(25% - 30px);
+    min-width: 200px;
 }
 
 .profile-img-wrap {

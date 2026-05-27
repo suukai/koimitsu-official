@@ -103,22 +103,6 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         },
         {
-            id: "natan",
-            name: "猫音なたん",
-            romaji: "NYAON NATAN",
-            color: "ピンク",
-            birthday: "7月7日",
-            hobby: "競艇、競馬、YouTube、猫と遊ぶ🐱💖",
-            skill: "作詞作編曲🎶",
-            comment: "応援してくれるみんなを誰よりも幸せにして、この大好きなグループをさらに大きくすることが夢です！\nこれからもっともっと成長して、絶対にみんなを大きなステージへ連れて行きます。\n一緒に最高の景色を見ようね💖",
-            image: "素材/natan.jpg",
-            sns: {
-                x: "https://x.com/natan_koimitu",
-                instagram: "https://instagram.com/nyaon_natan",
-                tiktok: "https://tiktok.com/@nyaon_natan"
-            }
-        },
-        {
             id: "rika",
             name: "叶成りか",
             romaji: "KANARI RIKA",
