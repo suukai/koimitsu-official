@@ -753,19 +753,19 @@ h1, h2, h3, h4, h5, h6 {
     .hero-slogan { font-size: 1rem; }
     .section { padding: 70px 0; }
     .profile-grid { gap: 15px; }
-    .profile-card { width: calc(33.333% - 10px); flex: 0 1 calc(33.333% - 10px); }
-    .profile-name { font-size: 1rem; }
-    .profile-color { font-size: 0.8rem; }
+    .profile-card { width: calc(25% - 11.25px); flex: 0 1 calc(25% - 11.25px); min-width: 0; }
+    .profile-name { font-size: 0.85rem; }
+    .profile-color { font-size: 0.75rem; }
     .profile-romaji { font-size: 0.6rem; letter-spacing: 0; }
     .news-grid { grid-template-columns: 1fr; }
 }
 
 @media (max-width: 480px) {
     .profile-grid { gap: 10px; }
-    .profile-card { width: calc(33.333% - 7px); flex: 0 1 calc(33.333% - 7px); }
-    .profile-name { font-size: 0.85rem; }
-    .profile-color { font-size: 0.7rem; }
-    .profile-romaji { font-size: 0.55rem; letter-spacing: 0; }
+    .profile-card { width: calc(25% - 7.5px); flex: 0 1 calc(25% - 7.5px); min-width: 0; }
+    .profile-name { font-size: 0.75rem; }
+    .profile-color { font-size: 0.65rem; }
+    .profile-romaji { font-size: 0.5rem; letter-spacing: 0; }
     .profile-img-wrap { margin-bottom: 8px; border-radius: 8px; }
     .news-grid { grid-template-columns: 1fr; }
 }
