@@ -60,7 +60,7 @@ document.addEventListener('DOMContentLoaded', () => {
             color: "白",
             birthday: "4月7日",
             hobby: "お金を稼ぐこと、海外旅行",
-            skill: "散財、オタク研究",
+            skill: "オタク研究",
             comment: "“いつか売れてほしい”じゃなくて、“売れるまで隣で支える”って覚悟ある人求めてます。一緒にてっぺん見に行こうね。",
             image: "素材/wataame.jpg",
             sns: {
@@ -87,6 +87,22 @@ document.addEventListener('DOMContentLoaded', () => {
         },
 
         {
+            id: "rika",
+            name: "叶成りか",
+            romaji: "KANARI RIKA",
+            color: "水色",
+            birthday: "10月28日",
+            hobby: "たべること",
+            skill: "バイオリン",
+            comment: "みんなから愛されるかわいいアイドルになれるように頑張ります。",
+            image: "素材/rika.jpg",
+            sns: {
+                x: "https://x.com/rkks_koimitu",
+                instagram: "https://instagram.com/rikachan_www",
+                tiktok: "https://tiktok.com/@rkk_kwii"
+            }
+        },
+        {
             id: "nemu",
             name: "はちみつねむ",
             romaji: "HACHIMITSU NEMU",
@@ -103,19 +119,35 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         },
         {
-            id: "rika",
-            name: "叶成りか",
-            romaji: "KANARI RIKA",
-            color: "水色",
-            birthday: "10月28日",
-            hobby: "たべること",
-            skill: "バイオリン",
-            comment: "みんなから愛されるかわいいアイドルになれるように頑張ります。",
-            image: "素材/rika.jpg",
+            id: "minon",
+            name: "美音 むあ",
+            romaji: "MION MUA",
+            color: "",
+            birthday: "9月10日",
+            hobby: "沢山ねること",
+            skill: "どこでもすぐ寝れる、忘れもの、時間と場所の勘違い",
+            comment: "私にみんなの人生照らさせてくれにゃん",
+            image: "素材/minon.jpg",
             sns: {
-                x: "https://x.com/rkks_koimitu",
-                instagram: "https://instagram.com/rikachan_www",
-                tiktok: "https://tiktok.com/@rkk_kwii"
+                x: "https://x.com/minon_koimitu",
+                instagram: "https://instagram.com/minonmua_koimitu",
+                tiktok: "https://tiktok.com/@minonmua_koimitu"
+            }
+        },
+        {
+            id: "noka",
+            name: "紡希のか",
+            romaji: "TSUMUGIKI NOKA",
+            color: "",
+            birthday: "2月4日",
+            hobby: "食べること、ネトスト",
+            skill: "バレエ",
+            comment: "みんなの一番好きな人になりたいので頑張ります！！",
+            image: "素材/noka.jpg",
+            sns: {
+                x: "https://x.com/noka_koimitu",
+                instagram: "https://instagram.com/noka_koimitu",
+                tiktok: "https://tiktok.com/@mazika4wwwww"
             }
         }
 

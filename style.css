@@ -365,8 +365,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .profile-card {
     cursor: pointer;
-    width: calc(25% - 30px);
-    flex: 0 1 calc(25% - 30px);
+    width: calc(33.333% - 28px);
+    flex: 0 1 calc(33.333% - 28px);
     min-width: 200px;
 }
 
@@ -753,7 +753,7 @@ h1, h2, h3, h4, h5, h6 {
     .hero-slogan { font-size: 1rem; }
     .section { padding: 70px 0; }
     .profile-grid { gap: 15px; }
-    .profile-card { width: calc(25% - 11.25px); flex: 0 1 calc(25% - 11.25px); min-width: 0; }
+    .profile-card { width: calc(33.333% - 10px); flex: 0 1 calc(33.333% - 10px); min-width: 0; }
     .profile-name { font-size: 0.85rem; }
     .profile-color { font-size: 0.75rem; }
     .profile-romaji { font-size: 0.6rem; letter-spacing: 0; }
@@ -762,7 +762,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 480px) {
     .profile-grid { gap: 10px; }
-    .profile-card { width: calc(25% - 7.5px); flex: 0 1 calc(25% - 7.5px); min-width: 0; }
+    .profile-card { width: calc(33.333% - 7px); flex: 0 1 calc(33.333% - 7px); min-width: 0; }
     .profile-name { font-size: 0.75rem; }
     .profile-color { font-size: 0.65rem; }
     .profile-romaji { font-size: 0.5rem; letter-spacing: 0; }
