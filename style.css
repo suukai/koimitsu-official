@@ -753,6 +753,8 @@ h1, h2, h3, h4, h5, h6 {
     .hero {
         height: auto;
         min-height: unset;
+        overflow: visible;
+        display: block;
     }
 
     .hero-bg {
@@ -762,20 +764,25 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     .hero-bg img {
-        object-fit: contain;
-        object-position: center;
-        height: auto;
         width: 100%;
+        height: auto;
+        object-fit: unset;
+        object-position: unset;
+        display: block;
         animation: none;
         transform: none;
     }
 
+    .hero-overlay {
+        display: none;
+    }
+
     .hero-content {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        width: 100%;
+        position: relative;
+        z-index: 3;
+        text-align: center;
         padding: 20px;
+        background: rgba(255,255,255,0.85);
     }
 
     .hero-logo {
